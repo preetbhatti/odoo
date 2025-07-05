@@ -33,7 +33,7 @@ Compatible with: Odoo 18 Community & Enterprise
     'assets': {
         'web.assets_backend': [
             ('include', 'web._assets_jquery'),
-            'context_menu/static/src/**/*',
+            'custom_context_menu/static/src/**/*',
         ],
     },
     'maintainer': 'Prit',
