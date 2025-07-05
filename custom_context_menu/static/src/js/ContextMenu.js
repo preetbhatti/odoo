@@ -24,6 +24,6 @@ export class ContextMenu extends Component {
     }
 
     prepareUrl(item) {
-        return '/odoo/' + item.actionPath ? item.actionPath : 'action-'+item.actionID;
+        return '/odoo/' + (item.actionPath ? item.actionPath : 'action-'+item.actionID);
     }
 } 
