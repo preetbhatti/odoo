@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 {
+    "name": "Custom Context Menu | Odoo Custom Context Menu | Odoo Context Menu | Odoo Menus",
     'name': 'Custom Context Menu',
     'summary': 'Custom Context Menu for Odoo: Override and Enhance the Default Right-Click Experience',
     'description': '''
@@ -38,7 +39,7 @@ Compatible with: Odoo 18 Community & Enterprise
     },
     'maintainer': 'Prit',
     'support': 'prt.c.bhatti@gmail.com',
-    'images': [''],
+    'images': ['static/description/banner.gif'],
     'license': 'OPL-1',
     'installable': True,
     'application': True
