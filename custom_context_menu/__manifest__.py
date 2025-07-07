@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 {
     "name": "Custom Context Menu | Odoo Custom Context Menu | Odoo Context Menu | Odoo Menus",
-    'name': 'Custom Context Menu',
     'summary': 'Custom Context Menu for Odoo: Override and Enhance the Default Right-Click Experience',
     'description': '''
 Transform the way you interact with Odoo!
@@ -22,11 +21,10 @@ Odoo users and administrators who want to streamline workflows, provide quick ac
 Support & Documentation:
 - Email: prt.c.bhatti@gmail.com
 
-
 License: OPL-1
 Compatible with: Odoo 18 Community & Enterprise
 ''',
-    'author': "Prit",
+    'author': "Preet Bhatti",
     'website': "https://preetbhatti.github.io/portfolio/",
     'category': 'Tools',
     'version': '18.0.0.0.0',
@@ -37,10 +35,11 @@ Compatible with: Odoo 18 Community & Enterprise
             'custom_context_menu/static/src/**/*',
         ],
     },
-    'maintainer': 'Prit',
+    'maintainer': 'Preet',
     'support': 'prt.c.bhatti@gmail.com',
     'images': ['static/description/banner.gif'],
     'license': 'OPL-1',
     'installable': True,
-    'application': True
-} 
+    'application': True,
+    'auto_install': False,
+}
