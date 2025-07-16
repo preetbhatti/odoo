@@ -30,6 +30,7 @@ patch(WebClient.prototype, {
             var winWidth = $(window).width(), winHeight = $(window).height();
             let left = (mouseX + offset + menuWidth) > winWidth ? winWidth - menuWidth - offset : mouseX + offset;
             let top = (mouseY + offset + menuHeight) > winHeight ? winHeight - menuHeight - offset : mouseY + offset;
+            if(top < 0) { top = 0}
             menu.css({ top: top + 'px', left: left + 'px'}).addClass('display');
         })
     },
